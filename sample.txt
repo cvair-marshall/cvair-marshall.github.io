@@ -1,0 +1,12 @@
+      <div class="reading-meta">
+        <strong>2025-04-11</strong><br />
+        <strong>Paper:</strong> Describing Differences in Image with Natural Language<br />
+        <em>Accepted by:</em> CVPR-2024<br />
+        <em>Presenter:</em> Omar A Babele<br />
+        <em>Time:</em> 5:00–5:00 p.m. EDT<br />
+        <em>Zoom:</em> <a href="https://udel.zoom.us/j/92569874832">Zoom link</a><br />
+        <em>Code:</em> <a href="https://github.com/OpenGVLab/VisionLLM">GitHub – OpenGVLab/VisionLLM</a><br />
+        <em>Slides:</em> <a href="#">link</a><br />
+      </div>
+
+      <p>Large language models (LLMs) have notably accelerated progress towards artificial general intelligence (AGI), with their impressive zero-shot capacity for user-tailored tasks... (you can add full abstract here).</p>

@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon" href="images/me.jpg" type="image/jpeg">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Ananya Jana | People</title>
+
+  <!-- External Styles -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    .person {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 2em;
+    }
+
+    .person img {
+      width: 120px;
+      height: 160px;
+      object-fit: cover;
+      margin-right: 20px;
+      border-radius: 0; /* no circle */
+    }
+
+    .person-info {
+      flex: 1;
+    }
+
+    .person-info h4 {
+      margin-top: 0;
+      margin-bottom: 0.3em;
+    }
+
+    .role {
+      font-style: italic;
+      color: #666;
+      font-size: 0.95em;
+    }
+
+    h2 {
+      margin-top: 3em;
+      margin-bottom: 1em;
+    }
+
+    .container {
+      padding-top: 2em;
+    }
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: 'Lato', sans-serif;  /* <-- new modern font */
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+  .tab-container {
+    display: flex;
+    justify-content: center;
+    background: white;
+    border-bottom: 2px solid #ccc;
+  }
+
+  .tab {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #004080;
+    font-weight: bold;
+    border: none;
+    border-bottom: 3px solid transparent;
+  }
+
+  .tab:hover {
+    background-color: #f1f1f1;
+  }
+
+  .tab.active {
+    border-bottom: 3px solid #004080;
+    background-color: #e0e0e0;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 2em auto;
+    padding: 1em;
+    background: white;
+    font-size: 15px; /* Match font size */
+  }
+
+  h1, h2 {
+    color: #004080;
+  }
+
+  a {
+    color: #004080;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  ul li {
+    font-size: 15px; /* Match font size */
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation Tabs -->
+  <div class="tab-container">
+    <a href="index.html" class="tab">Home</a>
+    <a href="dr-ananya-jana.html" class="tab">Dr. Ananya Jana</a>
+    <a href="teaching.html" class="tab">Teaching</a>
+    <a href="research.html" class="tab">Research</a>
+    <a href="grants.html" class="tab">Grants</a>
+    <a href="publication.html" class="tab">Publication</a>
+    <a href="opening.html" class="tab">Opening</a>
+    <a href="people.html" class="tab active">People</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h2>Lab Director</h2>
+
+    <div class="person">
+      <img src="images/me.jpg" alt="Ananya Jana" />
+      <div class="person-info">
+        <h4>Dr. Ananya Jana</h4>
+        <div class="role">Lab Director</div>
+        <p>Leads the CVAIR Lab with research interests in deep learning, biomedical image analysis, and explainable AI. Focused on developing clinical decision support systems using generative and multimodal AI.</p>
+      </div>
+    </div>
+
+    <h2>Graduate Students</h2>
+
+    <div class="person">
+      <img src="images/anastasiia.jpeg" alt="Anastasiia Sukhanova" />
+      <div class="person-info">
+        <h4>Anastasiia Sukhanova</h4>
+        <div class="role">Graduate Researcher (Master's Thesis)</div>
+        <p>Working on explainable colorectal cancer segmentation using vision-language models like CLIP and LLaVA.</p>
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="images/daron2.png" alt="Daron Weekley" />
+      <div class="person-info">
+        <h4>Daron Weekley</h4>
+        <div class="role">Graduate Researcher (Independent Study)</div>
+        <p>Research: Focusing on tooth segmentation and the impact of dental mesh resolution on tooth segmentation.</p>
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="images/satya.png" alt="Satya Nimmagadda" />
+      <div class="person-info">
+        <h4>Satya Nimmagadda</h4>
+        <div class="role">Graduate Researcher (Collaborator)</div>
+        <p>Research: Exploring generative models for synthetic data generation in biomedical imaging.</p>
+      </div>
+    </div>
+
+    <h2>Undergraduate Students</h2>
+
+    <div class="person">
+      <img src="images/jace.jpg" alt="Jace Duckworth" />
+      <div class="person-info">
+        <h4>Jace Duckworth</h4>
+        <div class="role">Undergraduate Researcher</div>
+        <p>Research: Tooth landmark localization from 3D dental mesh.</p>
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="images/tanner.jpg" alt="Tanner Wick" />
+      <div class="person-info">
+        <h4>Tanner Wick</h4>
+        <div class="role">NASA WV Undergraduate Fellow</div>
+        <p>Research: Deep learning-based human mesh recovery from 2D images guided by textual prompts.</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
